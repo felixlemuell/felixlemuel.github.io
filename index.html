@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Belajar HTML Form</title>
+</head>
+<body>
+    <h1>Belajar HTML Form</h1>
+    
+    <form>
+        <p><label for="nama">Nama:</label> <input type="text" id="nama" name="nama"
+            placeholder="Masukkan Nama" required></p>
+        <p><label for="email">Email:</label> <input type="email" id="email" name="email"
+            placeholder="Masukkan Email"></p>
+        <p><label for="password">Password:</label> <input type="password" id="password" name="password"
+            placeholder="Masukkan Password" required></p>
+        <p><label for="no_telfon">Nomor Telefon:</label> <input type="text" id="no_telfon" name="no_telfon"
+            placeholder="Masukkan Nomor Telefon"></p>
+        <p><label for="status">Status:</label>
+            <input type="radio" id="Belum Menikah" name="status" value="Belum Menikah">
+            <label for="Belum Menikah">Belum Menikah</label>
+            <input type="radio" id="Menikah" name="status" value="Menikah">
+            <label for="Menikah">Menikah</label>
+            <input type="radio" id="Bercerai" name="status" value="Bercerai">
+            <label for="Bercerai">Bercerai</label>
+        </p>
+        <p>
+            <label for="tanggal_lahir">Tanggal Lahir:</label>
+            <input type="date" id="tanggal_lahir" name="tanggal_lahir">
+        </p>
+        <p><label for="jenis_kelamin">Jenis Kelamin:</label>
+            <input type="radio" id="laki-laki" name="jenis_kelamin" value="laki-laki">
+            <label for="laki-laki">Laki-Laki</label>
+            <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan">
+            <label for="perempuan">Perempuan</label>
+        </p>
+        <p><label for="hobi">Hobi:</label>
+            <input type="checkbox" id="Belajar" name="hobi1" value="Belajar">
+            <label for="Belajar">Belajar</label>
+            <input type="checkbox" id="Olahraga" name="hobi2" value="Olahraga">
+            <label for="Olahraga">Olahraga</label>
+            <input type="checkbox" id="Bermain Musik" name="hobi3" value="Bermain Musik">
+            <label for="Bermain Musik">Bermain Musik</label>
+            <input type="checkbox" id="Memelihara Binatang" name="hobi4" value="Memelihara Binatang">
+            <label for="Memelihara Binatang">Memelihara Binatang    </label>
+        </p>
+        <p><label for="agama">Agama:</label>
+            <select id="agama" name="agama">
+                <option value="pro">Kristen Protestan</option>
+                <option value="islam">Islam</option>
+                <option value="budha">Budha</option>
+                <option value="katolik">Katolik</option>
+            </select>
+        </p>
+        <p><label for="alamat">Alamat:</label>
+            <textarea id="alamat" name="alamat" rows="5" cols="30"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Simpan">
+            <input type="reset" value="Reset">  
+        </p>
+    </form>
+
+</body>
+</html>
